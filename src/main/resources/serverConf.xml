@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <maxUriSize>20</maxUriSize>
+    <maxVersionSize>10</maxVersionSize>
+    <maxMethodSize>10</maxMethodSize>
+    <maxHeadersSize>2000</maxHeadersSize>
+    <queueSize>5</queueSize> <!-- the total size of the queue for all concurrent requests -->
+    <numberOfConsumers>3</numberOfConsumers>
+    <timeoutWaitingRequest>4000</timeoutWaitingRequest> <!-- in milliseconds-->
+    <port>8080</port>
+    <webRoot>src/main/resources/WEB_INF</webRoot>
+</configuration>
